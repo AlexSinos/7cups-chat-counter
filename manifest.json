@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "7cups Message Counter",
+  "version": "1.0",
+  "description": "Counts the number of messages in a 7cups chat",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*.7cups.com/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
