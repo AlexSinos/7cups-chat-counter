@@ -1,9 +1,8 @@
 # 7cups Chat Counter
 
 ## Description
-A Chrome extension that counts the number of messages in a 7cups chat and displays the count in the chat title.
 
-![Screenshot](screenshots/preview.png)
+![Screenshot](assets/screenshot.jpg)
 
 ---
 
